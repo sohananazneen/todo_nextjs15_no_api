@@ -1,6 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# TaskFlow - Modern Todo Application
 
-## Getting Started
+**Organize your life with style and simplicity**
+
+TaskFlow is a beautifully designed, modern todo application built with Next.js 15 and React 19. It features a stunning glassmorphism UI with smooth animations, gradient backgrounds, and an intuitive user experience that makes task management both productive and enjoyable.
+
+## 🌟 Live Demo
+
+**[View Live Application](https://todo-nextjs15-with-server-action.vercel.app/)**
+
+## ✨ Features
+
+- **Modern Glassmorphism Design** - Beautiful backdrop blur effects and gradient backgrounds
+- **Animated Statistics Dashboard** - Real-time task completion tracking with smooth animations
+- **Responsive Design** - Optimized for all devices with a mobile-first approach
+- **Smooth Micro-interactions** - Delightful animations and transitions throughout the app
+- **Professional Typography** - Clean, modern fonts using Geist font family
+- **Task Management** - Create, edit, complete, and delete tasks with ease
+- **Visual Task Cards** - Enhanced task display with improved visual hierarchy
+- **No External API Required** - Uses local state management for simplicity
+
+## 🚀 Tech Stack
+
+- **Next.js 15** - Latest React framework with App Router
+- **React 19** - Latest React version with enhanced features
+- **TypeScript** - Type-safe development
+- **Tailwind CSS 4** - Modern utility-first CSS framework
+- **Server Actions** - Built-in Next.js server actions for form handling
+
+## 🛠️ Getting Started
 
 First, run the development server:
 
@@ -16,23 +43,27 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📁 Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+├── app/
+│   ├── todos/
+│   │   ├── actions.ts      # Server actions for todo operations
+│   │   └── page.tsx        # Main todos page component
+│   ├── globals.css         # Global styles and animations
+│   ├── layout.tsx          # Root layout component
+│   └── page.tsx            # Home page with TaskFlow branding
+├── lib/
+│   └── mock-db.ts          # Mock database for todo storage
+└── public/                 # Static assets
+```
 
-## Learn More
+## 🎨 Design Features
 
-To learn more about Next.js, take a look at the following resources:
+- **Glassmorphism Effects** - Modern glass-like UI elements with backdrop blur
+- **Gradient Backgrounds** - Beautiful color transitions and visual depth
+- **Animated Components** - Smooth fade-in animations and micro-interactions
+- **Modern Card Design** - Clean task cards with hover effects
+- **Responsive Grid Layout** - Adaptive layout that works on all screen sizes
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# todo_nextjs15_no_api
-# todo_nextjs15_no_api
+## 🚀 Deploy on Vercel
